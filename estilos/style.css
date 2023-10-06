@@ -25,6 +25,7 @@ section#login {
     width: 250px;
     border-radius: 20px;
     position: absolute;
+    overflow: hidden;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -33,7 +34,13 @@ section#login {
 }
 
 section#login > div#imagem {
-    background-image: url(../imagens/pexels-dinnow-9444476.jpg);
-    background-position:  center;
+    background: #5f2c82 url(../imagens/pexels-indra-gunawan-398154.jpg);
+    background-size: cover;
+    background-position: right center;
     height: 200px;
+}
+
+section#login > div#formulario {
+    
+    margin: 10px;
 }
